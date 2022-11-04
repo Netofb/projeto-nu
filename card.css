@@ -1,0 +1,50 @@
+.nossos-produtos{
+  display: flex;
+  margin: 0 auto 2rem auto;
+}
+.nossos-produtos-titulo{
+  text-align: center;
+  margin: 5rem auto 5rem auto;
+  font-size: 3rem;
+}
+.nossos-produtos-titulo span{
+  color: red;
+  
+}
+.card{
+  background-color: rgb(29, 28, 28);
+  margin: 1rem; 
+  display: flex;
+  
+}
+.botao {
+  background-color: red;
+  border-radius: 5px;
+  padding: 12px;
+  color: aliceblue;
+  cursor: pointer;
+  text-decoration: none;
+  
+}
+.botao:hover{
+  background-color: white;
+  color: red;
+}
+.botao img{
+max-width: 30px;
+margin-right: 1rem;
+}
+.card-text{
+  color: rgb(214, 21, 21); 
+  font-size: 1.5rem;
+  
+}
+
+.card-title{
+  text-transform: lowercase;
+}
+@media(max-width:500px){
+  .nossos-produtos-titulo{
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,88 @@
+.main{
+max-width: 1200px;
+display: flex;
+margin: 0 auto;
+}
+.secao-1{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10rem;
+}
+.secao-1-titulo{
+  max-width: 50ch;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.125rem;
+  color: rgb(255, 255, 255);
+  
+}
+.secao-1-titulo strong{
+  font-size: 3rem;
+  color: rgb(214, 21, 21); 
+  
+}
+.secao-1 img{
+  border-radius: 50%;
+  max-width: 30%;
+}
+
+
+
+.nosso-time{
+  display: flex;
+  margin: 5rem auto;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center; 
+}
+.nosso-time h2{
+  font-family: "Poppins", sans-serif;
+  font-size: 4rem;
+}
+.nosso-time span{
+  color: rgb(214, 21, 21);
+}
+.perfil{
+  margin-top: 5rem;
+  border-radius: 50%;
+  max-width: 400px;
+}
+
+.links{
+  max-width: 60px;
+}
+.links:hover{
+  border-radius: 50%;
+  box-shadow: red -5px -5px 5px;
+}
+.links-perfil{
+ display: flex;
+ justify-content: center;
+ gap: 2rem;
+ margin: 2rem auto;
+}
+
+
+@media(max-width:500px){
+
+.secao-1-titulo{
+  max-width: 30ch;
+  font-size: 12px;
+  }
+  .secao-1-titulo strong{
+    font-size: 1.5rem;
+    text-transform: inherit;
+  }
+  .perfil{
+    max-width:200px;
+  }
+  .links{
+    max-width: 40px;
+  }
+  .links-perfil{
+    gap: 1rem;
+  }
+  .nosso-time h2{
+    font-size: 2rem;
+  }
+}
